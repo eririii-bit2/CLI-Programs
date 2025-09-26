@@ -631,7 +631,7 @@ void MainMenu() {
 
 void welcomeMsg() {
     cout << lineBreak
-         << "\n" << titleTabs << "|-" << string(2, '\t') << "  -Welcome to-      " << string(2, '\t') << "-|\n"
+         << "\n" << titleTabs << "|--" << string(2, '\t') << "  -Welcome to-      " << string(2, '\t') << "--|\n"
          << titleTabs << "|-\t  ---------------------Summertime::Coding|\n"
          << titleTabs << "|A C++ Tutorial Game---------------------  \t-|\n"
          << lineBreak;
